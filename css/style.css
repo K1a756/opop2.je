@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'philosoph';
+    src: local('philosopher');
+    src: url(../fonts/Philosopher/Philosopher-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'robot';
+    src:local('roboto');
+    src: url('../fonts/Roboto/static/Roboto-Bold.ttf');
+}
+
+body{
+    background-color: #ffe2b0;
+}
+.head_icon{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+li{
+    display: inline;
+    margin-right: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a{
+    color: black;
+    font-family: 'robot';
+    font-size: 18px;
+}
+li:last-child{
+    margin-right: 0px;
+}
+
+.section_about_icon_1{
+    background: url(../img/картинка-фона-1.png);
+    width: 1440px;
+    height:640px;
+    background-repeat: no-repeat;
+    margin-bottom:20px;
+}
+
+.section_about_icon_text{
+    position: relative;
+    width:420px;
+    height:190px;
+    background: linear-gradient(180deg,rgba(244,213,178,0.8) 0%, rgba(234,156,65,0.8) 100%);
+    top: 349px;
+    left:730px;
+    padding-top: 15px;
+    
+}
+.section_about_icon_text_border{
+    border: 1px solid black;
+    width:390px;
+    height: 160px;
+    margin: 0 auto;
+    padding-top: 17px;
+    padding-left: 28px;
+    
+}
+
+.section_about_icon_text_border_title{
+    font-size: 36px;
+    font-family: 'philosoph';
+    margin-bottom: 9px;
+}
+
+.section_about_icon_text_border_par{
+    font-family: 'robot';
+    font-size: 12px;
+   
+}
+
+.section_about_icon_2{
+    margin-bottom: 20px;
+}
+
+.section_icon{
+    text-align: center;
+}
+
+.section_icon_1{
+    margin-right: 76px;
+    width: 290px;
+    height: 290px;
+}
+.section_icon_2{
+    margin-right: 76px;
+    width: 290px;
+    height: 290px;
+}
+.section_icon_3 {
+    
+    width: 290px;
+    height: 290px;
+}
+
+.section_about_icon_3{
+    margin-bottom: 20px;
+}
+
+.section_big_title{
+    font-family: 'philosoph';
+    text-align: center;
+    font-size:96px ;
+}
+.section_big_title_word{
+    color:red;
+}
+.section_big_title_text{
+    width:1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section_about_icon_4{
+    margin-bottom: 20px;
+}
+
+.section_purchase{
+    font-size: 36px;
+    font-family: 'philosoph';
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.map{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section_hr{
+    border: solid #999999 1px;
+    width:1024px;
+    margin: 0 auto;
+}
