@@ -49,7 +49,7 @@ li:last-child{
     width: 1440px;
     height:640px;
     background-repeat: no-repeat;
-    background: cover;
+    background-size: cover;
     margin-bottom:20px;
 }
 
