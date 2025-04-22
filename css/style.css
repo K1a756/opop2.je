@@ -13,9 +13,7 @@
     src: url('../fonts/Roboto/static/Roboto-Bold.ttf');
 }
 
-body{
-    background-color: #ffe2b0;
-}
+
 .head_icon{
     display: block;
     margin: 0 auto;
